@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function apicalls(){
     let urlstart = "https://api.openweathermap.org/data/2.5/onecall?lat=";
     let urlmitte = "&lon=";
-    let urlende = "&exclude=minutely,hourly,alerts&lang=de&units=metric&appid=9d7a3fd61ef0c0569c1d26db64b67c5c&q=";
+    let urlende = "&exclude=minutely,hourly,alerts&lang=de&units=metric&appid=fdfcb95e1babade12aa1dc9af7cc7efd&q=";
     
     let lat = "48.208174";
     let lon = "16.373819";
