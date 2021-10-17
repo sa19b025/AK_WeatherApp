@@ -34,7 +34,7 @@ function callbackFuncWithData(data){
     let image = document.createElement("img");
     let imageParent = document.getElementById("currentWeatherIcon");
     let searchPic = new Image(100,100);
-    searchPic.src = "http://openweathermap.org/img/wn/" + data.current.weather[0].icon + "@2x.png";
+    searchPic.src = "https://openweathermap.org/img/wn/" + data.current.weather[0].icon + "@2x.png";
     image.id = "currentWeatherPic";
     image.src = searchPic.src;            // image.src = "IMAGE URL/PATH"
     imageParent.appendChild(image);
@@ -63,7 +63,7 @@ function callbackFuncWithData(data){
     let imageTag1 = document.createElement("img");
     let imageParentTag1 = document.getElementById("imgTag1");
     let searchPicTag1 = new Image(100,100);
-    searchPicTag1.src = "http://openweathermap.org/img/wn/" + data.daily[1].weather[0].icon + "@2x.png";
+    searchPicTag1.src = "https://openweathermap.org/img/wn/" + data.daily[1].weather[0].icon + "@2x.png";
     imageTag1.id = "imageTag1";
     imageTag1.src = searchPicTag1.src;
     imageParentTag1.appendChild(imageTag1);
@@ -78,7 +78,7 @@ function callbackFuncWithData(data){
     let imageTag2 = document.createElement("img");
     let imageParentTag2 = document.getElementById("imgTag2");
     let searchPicTag2 = new Image(100,100);
-    searchPicTag2.src = "http://openweathermap.org/img/wn/" + data.daily[2].weather[0].icon + "@2x.png";
+    searchPicTag2.src = "https://openweathermap.org/img/wn/" + data.daily[2].weather[0].icon + "@2x.png";
     imageTag2.id = "imageTag2";
     imageTag2.src = searchPicTag2.src;
     imageParentTag2.appendChild(imageTag2);
@@ -93,7 +93,7 @@ function callbackFuncWithData(data){
     let imageTag3 = document.createElement("img");
     let imageParentTag3 = document.getElementById("imgTag3");
     let searchPicTag3 = new Image(100,100);
-    searchPicTag3.src = "http://openweathermap.org/img/wn/" + data.daily[3].weather[0].icon + "@2x.png";
+    searchPicTag3.src = "https://openweathermap.org/img/wn/" + data.daily[3].weather[0].icon + "@2x.png";
     imageTag3.id = "imageTag3";
     imageTag3.src = searchPicTag3.src;
     imageParentTag3.appendChild(imageTag3);
@@ -108,7 +108,7 @@ function callbackFuncWithData(data){
     let imageTag4 = document.createElement("img");
     let imageParentTag4 = document.getElementById("imgTag4");
     let searchPicTag4 = new Image(100,100);
-    searchPicTag4.src = "http://openweathermap.org/img/wn/" + data.daily[4].weather[0].icon + "@2x.png";
+    searchPicTag4.src = "https://openweathermap.org/img/wn/" + data.daily[4].weather[0].icon + "@2x.png";
     imageTag4.id = "imageTag4";
     imageTag4.src = searchPicTag4.src;
     imageParentTag4.appendChild(imageTag4);
@@ -123,7 +123,7 @@ function callbackFuncWithData(data){
     let imageTag5 = document.createElement("img");
     let imageParentTag5 = document.getElementById("imgTag5");
     let searchPicTag5 = new Image(100,100);
-    searchPicTag5.src = "http://openweathermap.org/img/wn/" + data.daily[5].weather[0].icon + "@2x.png";
+    searchPicTag5.src = "https://openweathermap.org/img/wn/" + data.daily[5].weather[0].icon + "@2x.png";
     imageTag5.id = "imageTag5";
     imageTag5.src = searchPicTag5.src;
     imageParentTag5.appendChild(imageTag5);
@@ -138,7 +138,7 @@ function callbackFuncWithData(data){
     let imageTag6 = document.createElement("img");
     let imageParentTag6 = document.getElementById("imgTag6");
     let searchPicTag6 = new Image(100,100);
-    searchPicTag6.src = "http://openweathermap.org/img/wn/" + data.daily[6].weather[0].icon + "@2x.png";
+    searchPicTag6.src = "https://openweathermap.org/img/wn/" + data.daily[6].weather[0].icon + "@2x.png";
     imageTag6.id = "imageTag5";
     imageTag6.src = searchPicTag6.src;
     imageParentTag6.appendChild(imageTag6);
@@ -153,7 +153,7 @@ function callbackFuncWithData(data){
     let imageTag7 = document.createElement("img");
     let imageParentTag7 = document.getElementById("imgTag7");
     let searchPicTag7 = new Image(100,100);
-    searchPicTag7.src = "http://openweathermap.org/img/wn/" + data.daily[7].weather[0].icon + "@2x.png";
+    searchPicTag7.src = "https://openweathermap.org/img/wn/" + data.daily[7].weather[0].icon + "@2x.png";
     imageTag7.id = "imageTag7";
     imageTag7.src = searchPicTag7.src;
     imageParentTag7.appendChild(imageTag7);
