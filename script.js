@@ -44,7 +44,7 @@ function callbackFuncWithData(data){
     $(currentWeatherTempFeelsLike).text("Fühlt sich an wie: " + data.current.feels_like + "°C");
     $(currentWeatherCloud).text(data.current.clouds + "% bewölkt");
     $(currentWeatherHumidity).text(data.current.humidity + "% Luftfeuchtigkeit");
-    $(currentWeatherWind).text("Windgeschwindigkeit: " + data.current.wind_speed + "m/s");
+    $(currentWeatherWind).text("Windgeschwindigkeit: " + data.current.wind_speed + " m/s");
     $(currentWeatherWindDirection).text("Windrichtung: " + data.current.wind_deg + "°");
 
     let dateSunrise = new Date(data.current.sunrise*1000);
