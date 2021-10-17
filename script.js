@@ -165,7 +165,8 @@ function callbackFuncWithData(data){
 }
 function geoAPIcall(lat, lon){
     const geoAPIurl = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + ","  + lon + "&key=AIzaSyD9Q9ReYYVC92AiA4GV589_RcqZfYfiN1Q";
-    $.getJSON(geoAPIurl, geoLocCallbackFuncWithData);    
+    $.getJSON(geoAPIurl, geoLocCallbackFuncWithData);
+    console.log(geoAPIurl);
 }
 function geoLocCallbackFuncWithData(data){
     $(locationText).text(data.results[0].address_components[2].long_name + ", " + data.results[0].address_components[3].long_name);
